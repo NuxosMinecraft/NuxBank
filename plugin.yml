@@ -1,0 +1,20 @@
+name: NuxBank
+version: 0.1
+author: N4th4
+main: net.n4th4.bukkit.nuxbank.NuxBank
+depend: [Spout]
+
+commands:
+    c2b:
+        description: Transfer to the bank the content of a chest.
+        usage: |
+          /<command>
+          Example: /<command>
+
+permissions:
+    nuxbank.build:
+        description: Allow to build a bank sign.
+        default: op
+    nuxbank.c2b:
+        description: Allow to transfer to the bank the content of a chest.
+        default: op
